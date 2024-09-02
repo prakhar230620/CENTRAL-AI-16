@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2f8baf5c-0386-4a25-8492-8f633c63d153" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/CENTRAL AI 16.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/api/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/config/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/core/input_handler/input_processor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/core/main_brain/llama_integration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/core/output_handler/response_aggregator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/core/service_selector/intent_analyzer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/data/service_descriptions/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/models/database_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/services/service_clients/base_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/services/service_integrations/integration_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/utils/auth_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/utils/speech_to_text/stt_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/utils/text_to_speech/tts_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/components/ChatInterface.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/components/MessageBubble.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/components/ServiceDashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/pages/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/utils/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/service_integration/service_trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/integration/test_api_endpoints.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/test_input_handler.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2lX0umcfZ7yxaVgAVhFoQ29fSgV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "GitIgnore"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\prakh\PycharmProjects\CENTRAL AI 16\backend" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="CENTRAL AI 16" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="$HF_HUB_DISABLE_SYMLINKS_WARNING$" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f8baf5c-0386-4a25-8492-8f633c63d153" name="Changes" comment="" />
+      <created>1725311338553</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725311338553</updated>
+    </task>
+    <servers />
+  </component>
+</project>
