@@ -2,20 +2,15 @@
 
 from sqlalchemy import Column, Integer, String, Boolean, DateTime, ForeignKey, Text
 from sqlalchemy.orm import relationship, validates
-from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.sql import func
 from werkzeug.security import generate_password_hash, check_password_hash
-import uuid
 import datetime
-
-Base = declarative_base()
-
+from database.database import Base
 
 class CommonFieldsMixin:
     id = Column(Integer, primary_key=True, index=True)
     created_at = Column(DateTime, default=datetime.datetime.utcnow)
     updated_at = Column(DateTime, onupdate=datetime.datetime.utcnow)
-
 
 class User(Base, CommonFieldsMixin):
     __tablename__ = 'users'
@@ -38,8 +33,6 @@ class User(Base, CommonFieldsMixin):
     def validate_email(self, key, address):
         assert '@' in address, "Email address must contain '@'"
         return address
-
-
 class UserPreference(Base, CommonFieldsMixin):
     __tablename__ = 'user_preferences'
 
