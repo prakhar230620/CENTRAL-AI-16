@@ -20,7 +20,7 @@ fastapi==0.68.1
 uvicorn==0.15.0
 passlib[bcrypt]==1.7.4
 pyjwt==2.1.0
-sqlalchemy==1.4.23
+
 google-api-python-client
 selenium
 beautifulsoup4
